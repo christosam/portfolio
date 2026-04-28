@@ -3,7 +3,7 @@ export const SITE_URL = `https://christosam.github.io${BASE_PATH}`;
 
 export const profile = {
   name: "Christo Sam Mathew",
-  firstName: "Christo",
+  firstName: "Christo Sam Mathew",
   title: "Flutter & Full-Stack Developer",
   tagline: "BLE · IoT · Device Integration",
   location: "Kochi, Kerala, India",
@@ -54,7 +54,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "LazyBed",
+    name: "Motorized Smart Bed Controller",
     tagline: "Smart Bed Controller App",
     stack: ["Flutter", "BLE", "Dart"],
     bullets: [
@@ -72,9 +72,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: "3E Connect",
-    tagline: "Real-time Video Streaming",
-    stack: ["GStreamer", "Wi-Fi", "Flutter"],
+    name: "Real-time Video Streaming App",
+    tagline: "Time Critical Live Video Streaming",
+    stack: ["GStreamer", "Wi-Fi", "Native Android/iOS"],
     bullets: [
       "Apps for low-latency real-time video streaming from hardware devices.",
       "Optimized streaming pipeline and connectivity for reliable throughput.",

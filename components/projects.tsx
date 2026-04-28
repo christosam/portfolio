@@ -34,7 +34,7 @@ export function Projects() {
                   {project.stack.map((tech) => (
                     <li
                       key={tech}
-                      className="rounded-md border border-border bg-background/60 px-2 py-0.5 font-mono text-[11px] text-muted-foreground"
+                      className="rounded-md border border-white bg-background/60 px-2 py-0.5 font-mono text-[11px] text-sky-300"
                     >
                       {tech}
                     </li>
